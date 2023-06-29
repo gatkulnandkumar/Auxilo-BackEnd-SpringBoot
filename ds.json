@@ -1,0 +1,21 @@
+	[
+	{
+	    "minIdle" : "5",
+	    "maxPoolSize" : "10",
+	    "idleTimeout" :"1000",
+	    "connectionTimeout":"1000",
+	    "isAutoCommit":"true",
+	    "cachePrepStmts":"true",
+	    "prepStmtCacheSize":"250",
+	    "prepStmtCacheSqlLimit":"2048",
+	    "useServerPrepStmts":"true",
+	    "poolName":"pg_pff1_api",
+	    "serverName":"192.168.11.239",
+	    "port":"5432",
+	    "databaseName":"services",
+	    "user":"kong",
+	    "password":"kong",
+	    "connectionTestQuery":"SELECT 1",
+		"dataSourceClassName":"org.postgresql.ds.PGSimpleDataSource",
+		"jdbcUrl":"jdbc:postgresql://192.168.11.239:5432/services"
+	}]
